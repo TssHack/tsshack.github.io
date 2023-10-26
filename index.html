@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+	<title>احسان- Chat GPT</title>
+	<link href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" rel="icon" sizes="32x32" type="image/png" />
+	<style type="text/css">body {
+      background-color: #EBDEF0;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .chat-container {
+      max-width: 400px;
+      margin: 20px auto;
+      background-color: #48C9B0;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .chat-header {
+      background-color: #5DADE2;
+      color: #ffffff;
+      padding: 10px;
+      font-weight: bold;
+      text-align: right;
+   }
+
+    .chat-body {
+      padding: 10px;
+      min-height: 200px;
+      max-height: 250px;
+      overflow-y: scroll;
+    }
+
+    .chat-input {
+    width: 377px;
+    padding: 10px;
+    margin-top: 10px;
+    }
+
+    .chat-input input[type="text"] {
+    width: 353px;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;   
+  }
+
+    .chat-input button {
+       padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    align-items: center;
+    }
+
+    .text-box {
+    background-color: #D0D3D4;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: #000000;
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;   
+    }
+
+    .chat-message {
+      background-color: #99EA14;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      font-weight: bold;
+      text-align: right;
+   }
+    
+   .chat-message2 {
+      background-color: #F71AED;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      font-weight: bold;
+      text-align: right;
+   }
+
+    .right-aligned {
+    text-align: right;
+}
+
+	</style>
+</head>
+<body dir="ltr">
+<div class="chat-container">
+<div class="chat-header">چت با هوش مصنوعی - Chat GPT&nbsp;</div>
+
+<div class="chat-body" id="chatBody" ><p class ="text-box">من اینجام تا به همه سوالاتته جواب بدم</p></div>
+
+<div class="chat-input"><input id="messageInput" class="right-aligned" placeholder=". . . صحبت کنید یا سوالی بپرسید" type="text" /><button onclick="sendMessage()">ارسال</button></div>
+</div>
+
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png" width="100" /></p>
+
+<address align="center"><span style="font-family:Georgia,serif;"><strong><span style="color:#7B241C;">Creator : </span><a href="https://t.me/devehsan"><span style="color:#7B241C;">@devehsan</span></a></strong></span></address>
+
+<address align="center"></address>
+
+<address align="center"></address>
+
+<address align="center"><span style="font-family:Georgia,serif;"><strong><span style="color:#7B241C;">develepor : </span><a href="https://t.me/devehsan"><span style="color:#7B241C;">@devehsan</span></a></strong></span></address>
+<style type="text/css">img{ animation-name: rotate ; animation-duration: 6s; animation-play-state: running; animation-timing-function: linear; animation-iteration-count: infinite; } @keyframes rotate{ 10% {transform:rotateY(36deg)} 20% {transform:rotateY(72deg)} 30% {transform:rotateY(108deg)} 40% {transform:rotateY(144deg)} 50% {transform:rotateY(180deg)} 60% {transform:rotateY(216deg)} 70% {transform:rotateY(252deg)} 80% {transform:rotateY(288deg)} 90% {transform:rotateY(324deg)} 100% {transform:rotateY(360deg)} }
+</style>
+<script>
+    function getMessageHTML(message) {
+      return `<div class="chat-message">${message}</div>`;
+    }
+
+    function getMessageHTML2(message) {
+      return `<div class="chat-message2" style="color: white;">${message}</div>`;
+    }
+
+    document.addEventListener("keydown", function(event) {
+    if (event.keyCode === 13) {
+        sendMessage();
+    }
+});
+
+    function sendMessagephp(message) {
+      var xhr = new XMLHttpRequest();
+      var url = 'https://api.pamickweb.com/API/chat.php?server=server2&&text=' + encodeURIComponent(message);
+      xhr.open('GET', url, true);
+      xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          var response = xhr.responseText;
+          addMessage(response);
+        }
+      };
+      xhr.send();
+    }
+
+function addMessage(message) {
+    const messageHTML = getMessageHTML2(message);
+    document.getElementById("chatBody").insertAdjacentHTML("beforeend", messageHTML);
+    document.getElementById("messageInput").disabled = false;
+}
+
+function sendMessage() {
+    const messageInput = document.getElementById("messageInput");
+    const message = messageInput.value.trim();
+    
+    if (message !== "") {
+      sendMessagephp(message);
+      const messageHTML = getMessageHTML(message);
+      document.getElementById("chatBody").insertAdjacentHTML("beforeend", messageHTML);
+      document.getElementById("messageInput").disabled = true;
+      messageInput.value = "";
+    }}
+
+  </script></body>
+</html>
