@@ -49,10 +49,7 @@
           children: [
             (0, h.jsx)(d.default, { source: r(7270), style: g.appLogo }),
             (0, h.jsx)(s.default, { style: g.title, children: "ChatGPT" }),
-            (0, h.jsx)(s.default, {
-              style: g.subtitle,
-              children: "open source chatbot app",
-            }),
+            (0, h.jsx)(s.default, { style: g.subtitle, children: "open source chatbot app" }),
             (0, h.jsxs)(i.default, {
               style: g.buttonContainer,
               children: [
@@ -63,10 +60,7 @@
                   },
                   children: [
                     (0, h.jsx)(p.default, { name: "comments", size: 20, color: "#000" }),
-                    (0, h.jsx)(s.default, {
-                      style: g.buttonText,
-                      children: "ChatGPT",
-                    }),
+                    (0, h.jsx)(s.default, { style: g.buttonText, children: "ChatGPT" }),
                   ],
                 }),
                 (0, h.jsxs)(l.default, {
@@ -76,10 +70,7 @@
                   },
                   children: [
                     (0, h.jsx)(p.default, { name: "bug", size: 20, color: "#000" }),
-                    (0, h.jsx)(s.default, {
-                      style: g.buttonText,
-                      children: "DarkGPT",
-                    }),
+                    (0, h.jsx)(s.default, { style: g.buttonText, children: "DarkGPT" }),
                   ],
                 }),
               ],
@@ -93,10 +84,7 @@
                 },
                 children: [
                   (0, h.jsx)(d.default, { source: r(8756), style: g.profileImage }),
-                  (0, h.jsx)(s.default, {
-                    style: g.buttonText,
-                    children: "Sam Alie",
-                  }),
+                  (0, h.jsx)(s.default, { style: g.buttonText, children: "Sam Alie" }),
                 ],
               }),
             }),
@@ -110,10 +98,7 @@
                   },
                   children: [
                     (0, h.jsx)(p.default, { name: "android", size: 20, color: "#000" }),
-                    (0, h.jsx)(s.default, {
-                      style: g.buttonText,
-                      children: "Android App",
-                    }),
+                    (0, h.jsx)(s.default, { style: g.buttonText, children: "Android App" }),
                   ],
                 }),
                 (0, h.jsxs)(l.default, {
@@ -123,10 +108,7 @@
                   },
                   children: [
                     (0, h.jsx)(p.default, { name: "android", size: 20, color: "#000" }),
-                    (0, h.jsx)(s.default, {
-                      style: g.buttonText,
-                      children: "sam Alie App",
-                    }),
+                    (0, h.jsx)(s.default, { style: g.buttonText, children: "sam Alie App" }),
                   ],
                 }),
               ],
@@ -141,10 +123,7 @@
                   },
                   children: [
                     (0, h.jsx)(p.default, { name: "code", size: 20, color: "#000" }),
-                    (0, h.jsx)(s.default, {
-                      style: g.buttonText,
-                      children: "API Docs",
-                    }),
+                    (0, h.jsx)(s.default, { style: g.buttonText, children: "API Docs" }),
                   ],
                 }),
                 (0, h.jsxs)(l.default, {
@@ -154,10 +133,7 @@
                   },
                   children: [
                     (0, h.jsx)(p.default, { name: "github", size: 20, color: "#000" }),
-                    (0, h.jsx)(s.default, {
-                      style: g.buttonText,
-                      children: "Github Page",
-                    }),
+                    (0, h.jsx)(s.default, { style: g.buttonText, children: "Github Page" }),
                   ],
                 }),
               ],
@@ -171,17 +147,11 @@
                 },
                 children: [
                   (0, h.jsx)(p.default, { name: "telegram", size: 20, color: "#000" }),
-                  (0, h.jsx)(s.default, {
-                    style: g.buttonText,
-                    children: "Telegram Contact",
-                  }),
+                  (0, h.jsx)(s.default, { style: g.buttonText, children: "Telegram Contact" }),
                 ],
               }),
             }),
-            (0, h.jsx)(s.default, {
-              style: g.footer,
-              children: "Developer: ehsan fazli",
-            }),
+            (0, h.jsx)(s.default, { style: g.footer, children: "Developer: ehsan fazli" }),
           ],
         });
       };
@@ -197,26 +167,20 @@
         var r = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var n = Object.getOwnPropertySymbols(e);
-          t &&
-            (n = n.filter(function (t) {
-              return Object.getOwnPropertyDescriptor(e, t).enumerable;
-            })),
-            r.push.apply(r, n);
+          t && (n = n.filter((function (t) {
+            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+          }))), r.push.apply(r, n);
         }
         return r;
       }
       function w(e) {
         for (var t = 1; t < arguments.length; t++) {
           var r = null != arguments[t] ? arguments[t] : {};
-          t % 2
-            ? P(Object(r), !0).forEach(function (t) {
-                (0, m.default)(e, t, r[t]);
-              })
-            : Object.getOwnPropertyDescriptors
-            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
-            : P(Object(r)).forEach(function (t) {
-                Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
-              });
+          t % 2 ? P(Object(r), !0).forEach((function (t) {
+            (0, m.default)(e, t, r[t]);
+          })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r)) : P(Object(r)).forEach((function (t) {
+            Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+          }));
         }
         return e;
       }
@@ -229,93 +193,80 @@
           c = (0, j.default)(s, 2),
           u = c[0],
           f = c[1];
-        (0, n.useEffect)(function () {
+        (0, n.useEffect)((function () {
           p();
-        }, []),
-          (0, n.useEffect)(function () {
-            g(o);
-          }, [o]);
+        }), []), (0, n.useEffect)((function () {
+          g(o);
+        }), [o]);
         var p = function () {
-            var e = (0, b.default)(function* () {
-              try {
-                var e = yield S().getItem("messages");
-                null !== e && a(e);
-              } catch (t) {
-                console.error("Failed to retrieve messages", t);
-              }
-            });
-            return function () {
-              return e.apply(this, arguments);
-            };
-          }(),
-          g = function () {
-            var e = (0, b.default)(function* (e) {
-              try {
-                yield S().setItem("messages", e);
-              } catch (t) {
-                console.error("Failed to store messages", t);
-              }
-            });
-            return function (t) {
-              return e.apply(this, arguments);
-            };
-          }(),
-          y = function () {
-            var e = (0, b.default)(function* () {
-              var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
-              if ("" !== e[0].text.trim()) {
-                f(!0), a(function (t) {
-                  return v.GiftedChat.append(t, e);
-                });
-                try {
-                  var t = yield fetch(
-                    `https://req.wiki-api.ir/apis-2/ChatGPT4?q=${encodeURIComponent(
-                      e[0].text
-                    )}`,
-                    {
-                      method: "GET",
-                      headers: {
-                        "Content-Type": "application/json; charset=UTF-8",
-                      },
-                    }
-                  );
-                  if (!t.ok) throw new Error("Failed to get response from chatbot");
-                  var n = yield t.json(),
-                    o = {
-                      _id: Math.random().toString(36).substring(7),
-                      text: n.results, // دریافت پاسخ از پارامتر results
-                      createdAt: new Date().toISOString(),
-                      user: {
-                        _id: 2,
-                        name: "ChatGPT",
-                        avatar: r(7270),
-                      },
-                    };
-                  f(!1), a(function (e) {
-                    return v.GiftedChat.append(e, o);
-                  });
-                } catch (s) {
-                  f(!1), alert("Error: " + s.message);
-                  var i = {
-                    _id: Math.random().toString(36).substring(7),
-                    text: "Failed to send message. Please try again.",
-                    createdAt: new Date().toISOString(),
-                    user: {
-                      _id: 2,
-                      name: "ChatGPT",
-                      avatar: r(7270),
-                    },
-                  };
-                  a(function (e) {
-                    return v.GiftedChat.append(e, i);
-                  });
-                }
-              } else alert("Message cannot be empty");
-            });
-            return function () {
-              return e.apply(this, arguments);
-            };
+          var e = (0, b.default)((function* () {
+            try {
+              var e = yield S().getItem("messages");
+              null !== e && a(e);
+            } catch (t) {
+              console.error("Failed to retrieve messages", t);
+            }
+          }));
+          return function () {
+            return e.apply(this, arguments);
           };
+        }(), g = function () {
+          var e = (0, b.default)((function* (e) {
+            try {
+              yield S().setItem("messages", e);
+            } catch (t) {
+              console.error("Failed to store messages", t);
+            }
+          }));
+          return function (t) {
+            return e.apply(this, arguments);
+          };
+        }(), y = function () {
+          var e = (0, b.default)((function* () {
+            var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
+            if ("" !== e[0].text.trim()) {
+              f(!0), a((function (t) {
+                return v.GiftedChat.append(t, e);
+              }));
+              try {
+                const data = new URLSearchParams();
+                data.append("text", e[0].text);
+                const t = yield fetch("http://api.api4dev.ir/gptpost/", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                  },
+                  body: data,
+                });
+                if (!t.ok) throw new Error("Failed to get response from chatbot");
+                const n = yield t.text();
+                const o = {
+                  _id: Math.random().toString(36).substring(7),
+                  text: n,
+                  createdAt: new Date().toISOString(),
+                  user: { _id: 2, name: "ChatGPT", avatar: r(7270) },
+                };
+                f(!1), a((function (e) {
+                  return v.GiftedChat.append(e, o);
+                }));
+              } catch (s) {
+                f(!1), alert("Error: " + s.message);
+                const i = {
+                  _id: Math.random().toString(36).substring(7),
+                  text: "Failed to send message. Please try again.",
+                  createdAt: new Date().toISOString(),
+                  user: { _id: 2, name: "ChatGPT", avatar: r(7270) },
+                };
+                a((function (e) {
+                  return v.GiftedChat.append(e, i);
+                }));
+              }
+            } else alert("Message cannot be empty");
+          }));
+          return function () {
+            return e.apply(this, arguments);
+          };
+        }();
         return (0, h.jsxs)(i.default, {
           style: [I.container, { backgroundColor: "#fff" }],
           children: [
@@ -327,25 +278,17 @@
                   style: { flexDirection: "row", alignItems: "center" },
                   children: (0, h.jsx)(l.default, {
                     onPress: function () {
-                      if (window.confirm("Are you sure you want to delete this chat?"))
-                        try {
-                          S()
-                            .removeItem("messages")
-                            .then(function () {
-                              a([]);
-                            })
-                            .catch(function (e) {
-                              console.error("Failed to delete chat", e);
-                            });
-                        } catch (e) {
+                      if (window.confirm("Are you sure you want to delete this chat?")) try {
+                        S().removeItem("messages").then((function () {
+                          a([]);
+                        })).catch((function (e) {
                           console.error("Failed to delete chat", e);
-                        }
+                        }));
+                      } catch (e) {
+                        console.error("Failed to delete chat", e);
+                      }
                     },
-                    children: (0, h.jsx)(O.default, {
-                      name: "trash-outline",
-                      size: 24,
-                      color: "#000",
-                    }),
+                    children: (0, h.jsx)(O.default, { name: "trash-outline", size: 24, color: "#000" }),
                   }),
                 }),
               ],
@@ -363,19 +306,14 @@
                   timeTextStyle: { right: { color: "rgba(255,255,255,0.5)" } },
                 }));
               },
-              renderSend: u
-                ? function (e) {
-                    return (0, h.jsx)(v.Send, w(w({}, e), {}, {
-                      children: (0, h.jsx)(i.default, {
-                        style: I.sendingContainer,
-                        children: (0, h.jsx)(x.default, {
-                          size: "small",
-                          color: "#007aff",
-                        }),
-                      }),
-                    }));
-                  }
-                : null,
+              renderSend: u ? function (e) {
+                return (0, h.jsx)(v.Send, w(w({}, e), {}, {
+                  children: (0, h.jsx)(i.default, {
+                    style: I.sendingContainer,
+                    children: (0, h.jsx)(x.default, { size: "small", color: "#007aff" }),
+                  }),
+                }));
+              } : null,
               renderLoading: function () {
                 return (0, h.jsx)(i.default, {
                   style: I.loadingContainer,
@@ -390,11 +328,7 @@
               },
               renderInputToolbar: function (e) {
                 return (0, h.jsx)(v.InputToolbar, w(w({}, e), {}, {
-                  containerStyle: {
-                    backgroundColor: "#fff",
-                    borderTopColor: "#000",
-                    borderTopWidth: 1,
-                  },
+                  containerStyle: { backgroundColor: "#fff", borderTopColor: "#000", borderTopWidth: 1 },
                 }));
               },
               renderComposer: function (e) {
@@ -431,26 +365,20 @@
         var r = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var n = Object.getOwnPropertySymbols(e);
-          t &&
-            (n = n.filter(function (t) {
-              return Object.getOwnPropertyDescriptor(e, t).enumerable;
-            })),
-            r.push.apply(r, n);
+          t && (n = n.filter((function (t) {
+            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+          }))), r.push.apply(r, n);
         }
         return r;
       }
       function D(e) {
         for (var t = 1; t < arguments.length; t++) {
           var r = null != arguments[t] ? arguments[t] : {};
-          t % 2
-            ? k(Object(r), !0).forEach(function (t) {
-                (0, m.default)(e, t, r[t]);
-              })
-            : Object.getOwnPropertyDescriptors
-            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
-            : k(Object(r)).forEach(function (t) {
-                Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
-              });
+          t % 2 ? k(Object(r), !0).forEach((function (t) {
+            (0, m.default)(e, t, r[t]);
+          })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r)) : k(Object(r)).forEach((function (t) {
+            Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+          }));
         }
         return e;
       }
@@ -463,93 +391,80 @@
           c = (0, j.default)(s, 2),
           u = c[0],
           f = c[1];
-        (0, n.useEffect)(function () {
+        (0, n.useEffect)((function () {
           p();
-        }, []),
-          (0, n.useEffect)(function () {
-            g(o);
-          }, [o]);
+        }), []), (0, n.useEffect)((function () {
+          g(o);
+        }), [o]);
         var p = function () {
-            var e = (0, b.default)(function* () {
-              try {
-                var e = yield S().getItem("darkmessages");
-                null !== e && a(e);
-              } catch (t) {
-                console.error("Failed to retrieve messages", t);
-              }
-            });
-            return function () {
-              return e.apply(this, arguments);
-            };
-          }(),
-          g = function () {
-            var e = (0, b.default)(function* (e) {
-              try {
-                yield S().setItem("darkmessages", e);
-              } catch (t) {
-                console.error("Failed to store messages", t);
-              }
-            });
-            return function (t) {
-              return e.apply(this, arguments);
-            };
-          }(),
-          y = function () {
-            var e = (0, b.default)(function* () {
-              var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
-              if ("" !== e[0].text.trim()) {
-                f(!0), a(function (t) {
-                  return v.GiftedChat.append(t, e);
-                });
-                try {
-                  var t = yield fetch(
-                    `https://req.wiki-api.ir/apis-2/ChatGPT4?q=${encodeURIComponent(
-                      e[0].text
-                    )}`,
-                    {
-                      method: "GET",
-                      headers: {
-                        "Content-Type": "application/json; charset=UTF-8",
-                      },
-                    }
-                  );
-                  if (!t.ok) throw new Error("Failed to get response from chatbot");
-                  var n = yield t.json(),
-                    o = {
-                      _id: Math.random().toString(36).substring(7),
-                      text: n.results, // دریافت پاسخ از پارامتر results
-                      createdAt: new Date().toISOString(),
-                      user: {
-                        _id: 2,
-                        name: "DarkGPT",
-                        avatar: r(8169),
-                      },
-                    };
-                  f(!1), a(function (e) {
-                    return v.GiftedChat.append(e, o);
-                  });
-                } catch (s) {
-                  f(!1), alert("Error: " + s.message);
-                  var i = {
-                    _id: Math.random().toString(36).substring(7),
-                    text: "Failed to send message. Please try again.",
-                    createdAt: new Date().toISOString(),
-                    user: {
-                      _id: 2,
-                      name: "DarkGPT",
-                      avatar: r(8169),
-                    },
-                  };
-                  a(function (e) {
-                    return v.GiftedChat.append(e, i);
-                  });
-                }
-              } else alert("Message cannot be empty");
-            });
-            return function () {
-              return e.apply(this, arguments);
-            };
+          var e = (0, b.default)((function* () {
+            try {
+              var e = yield S().getItem("darkmessages");
+              null !== e && a(e);
+            } catch (t) {
+              console.error("Failed to retrieve messages", t);
+            }
+          }));
+          return function () {
+            return e.apply(this, arguments);
           };
+        }(), g = function () {
+          var e = (0, b.default)((function* (e) {
+            try {
+              yield S().setItem("darkmessages", e);
+            } catch (t) {
+              console.error("Failed to store messages", t);
+            }
+          }));
+          return function (t) {
+            return e.apply(this, arguments);
+          };
+        }(), y = function () {
+          var e = (0, b.default)((function* () {
+            var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
+            if ("" !== e[0].text.trim()) {
+              f(!0), a((function (t) {
+                return v.GiftedChat.append(t, e);
+              }));
+              try {
+                const data = new URLSearchParams();
+                data.append("text", e[0].text);
+                const t = yield fetch("http://api.api4dev.ir/gptpost/", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                  },
+                  body: data,
+                });
+                if (!t.ok) throw new Error("Failed to get response from chatbot");
+                const n = yield t.text();
+                const o = {
+                  _id: Math.random().toString(36).substring(7),
+                  text: n,
+                  createdAt: new Date().toISOString(),
+                  user: { _id: 2, name: "ChatGPT", avatar: r(8169) },
+                };
+                f(!1), a((function (e) {
+                  return v.GiftedChat.append(e, o);
+                }));
+              } catch (s) {
+                f(!1), alert("Error: " + s.message);
+                const i = {
+                  _id: Math.random().toString(36).substring(7),
+                  text: "Failed to send message. Please try again.",
+                  createdAt: new Date().toISOString(),
+                  user: { _id: 2, name: "ChatGPT", avatar: r(8169) },
+                };
+                a((function (e) {
+                  return v.GiftedChat.append(e, i);
+                }));
+              }
+            } else alert("Message cannot be empty");
+          }));
+          return function () {
+            return e.apply(this, arguments);
+          };
+        }();
         return (0, h.jsxs)(i.default, {
           style: [E.container, { backgroundColor: "#fff" }],
           children: [
@@ -561,25 +476,17 @@
                   style: { flexDirection: "row", alignItems: "center" },
                   children: (0, h.jsx)(l.default, {
                     onPress: function () {
-                      if (window.confirm("Are you sure you want to delete this chat?"))
-                        try {
-                          S()
-                            .removeItem("darkmessages")
-                            .then(function () {
-                              a([]);
-                            })
-                            .catch(function (e) {
-                              console.error("Failed to delete chat", e);
-                            });
-                        } catch (e) {
+                      if (window.confirm("Are you sure you want to delete this chat?")) try {
+                        S().removeItem("darkmessages").then((function () {
+                          a([]);
+                        })).catch((function (e) {
                           console.error("Failed to delete chat", e);
-                        }
+                        }));
+                      } catch (e) {
+                        console.error("Failed to delete chat", e);
+                      }
                     },
-                    children: (0, h.jsx)(O.default, {
-                      name: "trash-outline",
-                      size: 24,
-                      color: "#000",
-                    }),
+                    children: (0, h.jsx)(O.default, { name: "trash-outline", size: 24, color: "#000" }),
                   }),
                 }),
               ],
@@ -597,19 +504,14 @@
                   timeTextStyle: { right: { color: "rgba(255,255,255,0.5)" } },
                 }));
               },
-              renderSend: u
-                ? function (e) {
-                    return (0, h.jsx)(v.Send, D(D({}, e), {}, {
-                      children: (0, h.jsx)(i.default, {
-                        style: E.sendingContainer,
-                        children: (0, h.jsx)(x.default, {
-                          size: "small",
-                          color: "#007aff",
-                        }),
-                      }),
-                    }));
-                  }
-                : null,
+              renderSend: u ? function (e) {
+                return (0, h.jsx)(v.Send, D(D({}, e), {}, {
+                  children: (0, h.jsx)(i.default, {
+                    style: E.sendingContainer,
+                    children: (0, h.jsx)(x.default, { size: "small", color: "#007aff" }),
+                  }),
+                }));
+              } : null,
               renderLoading: function () {
                 return (0, h.jsx)(i.default, {
                   style: E.loadingContainer,
@@ -624,11 +526,7 @@
               },
               renderInputToolbar: function (e) {
                 return (0, h.jsx)(v.InputToolbar, D(D({}, e), {}, {
-                  containerStyle: {
-                    backgroundColor: "#fff",
-                    borderTopColor: "#000",
-                    borderTopWidth: 1,
-                  },
+                  containerStyle: { backgroundColor: "#fff", borderTopColor: "#000", borderTopWidth: 1 },
                 }));
               },
               renderComposer: function (e) {
@@ -665,26 +563,20 @@
         var r = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var n = Object.getOwnPropertySymbols(e);
-          t &&
-            (n = n.filter(function (t) {
-              return Object.getOwnPropertyDescriptor(e, t).enumerable;
-            })),
-            r.push.apply(r, n);
+          t && (n = n.filter((function (t) {
+            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+          }))), r.push.apply(r, n);
         }
         return r;
       }
       function _(e) {
         for (var t = 1; t < arguments.length; t++) {
           var r = null != arguments[t] ? arguments[t] : {};
-          t % 2
-            ? F(Object(r), !0).forEach(function (t) {
-                (0, m.default)(e, t, r[t]);
-              })
-            : Object.getOwnPropertyDescriptors
-            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
-            : F(Object(r)).forEach(function (t) {
-                Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
-              });
+          t % 2 ? F(Object(r), !0).forEach((function (t) {
+            (0, m.default)(e, t, r[t]);
+          })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r)) : F(Object(r)).forEach((function (t) {
+            Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+          }));
         }
         return e;
       }
@@ -697,93 +589,80 @@
           c = (0, j.default)(s, 2),
           u = c[0],
           f = c[1];
-        (0, n.useEffect)(function () {
+        (0, n.useEffect)((function () {
           p();
-        }, []),
-          (0, n.useEffect)(function () {
-            g(o);
-          }, [o]);
+        }), []), (0, n.useEffect)((function () {
+          g(o);
+        }), [o]);
         var p = function () {
-            var e = (0, b.default)(function* () {
-              try {
-                var e = yield S().getItem("osmessages");
-                null !== e && a(e);
-              } catch (t) {
-                console.error("Failed to retrieve messages", t);
-              }
-            });
-            return function () {
-              return e.apply(this, arguments);
-            };
-          }(),
-          g = function () {
-            var e = (0, b.default)(function* (e) {
-              try {
-                yield S().setItem("osmessages", e);
-              } catch (t) {
-                console.error("Failed to store messages", t);
-              }
-            });
-            return function (t) {
-              return e.apply(this, arguments);
-            };
-          }(),
-          y = function () {
-            var e = (0, b.default)(function* () {
-              var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
-              if ("" !== e[0].text.trim()) {
-                f(!0), a(function (t) {
-                  return v.GiftedChat.append(t, e);
-                });
-                try {
-                  var t = yield fetch(
-                    `https://req.wiki-api.ir/apis-2/ChatGPT4?q=${encodeURIComponent(
-                      e[0].text
-                    )}`,
-                    {
-                      method: "GET",
-                      headers: {
-                        "Content-Type": "application/json; charset=UTF-8",
-                      },
-                    }
-                  );
-                  if (!t.ok) throw new Error("Failed to get response from chatbot");
-                  var n = yield t.json(),
-                    o = {
-                      _id: Math.random().toString(36).substring(7),
-                      text: n.results, // دریافت پاسخ از پارامتر results
-                      createdAt: new Date().toISOString(),
-                      user: {
-                        _id: 2,
-                        name: "Sam Alie",
-                        avatar: r(8756),
-                      },
-                    };
-                  f(!1), a(function (e) {
-                    return v.GiftedChat.append(e, o);
-                  });
-                } catch (s) {
-                  f(!1), alert("Error: " + s.message);
-                  var i = {
-                    _id: Math.random().toString(36).substring(7),
-                    text: "Failed to send message. Please try again.",
-                    createdAt: new Date().toISOString(),
-                    user: {
-                      _id: 2,
-                      name: "Sam Alie",
-                      avatar: r(8756),
-                    },
-                  };
-                  a(function (e) {
-                    return v.GiftedChat.append(e, i);
-                  });
-                }
-              } else alert("Message cannot be empty");
-            });
-            return function () {
-              return e.apply(this, arguments);
-            };
+          var e = (0, b.default)((function* () {
+            try {
+              var e = yield S().getItem("osmessages");
+              null !== e && a(e);
+            } catch (t) {
+              console.error("Failed to retrieve messages", t);
+            }
+          }));
+          return function () {
+            return e.apply(this, arguments);
           };
+        }(), g = function () {
+          var e = (0, b.default)((function* (e) {
+            try {
+              yield S().setItem("osmessages", e);
+            } catch (t) {
+              console.error("Failed to store messages", t);
+            }
+          }));
+          return function (t) {
+            return e.apply(this, arguments);
+          };
+        }(), y = function () {
+          var e = (0, b.default)((function* () {
+            var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
+            if ("" !== e[0].text.trim()) {
+              f(!0), a((function (t) {
+                return v.GiftedChat.append(t, e);
+              }));
+              try {
+                const data = new URLSearchParams();
+                data.append("text", e[0].text);
+                const t = yield fetch("http://api.api4dev.ir/gptpost/", {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                  },
+                  body: data,
+                });
+                if (!t.ok) throw new Error("Failed to get response from chatbot");
+                const n = yield t.text();
+                const o = {
+                  _id: Math.random().toString(36).substring(7),
+                  text: n,
+                  createdAt: new Date().toISOString(),
+                  user: { _id: 2, name: "ChatGPT", avatar: r(8756) },
+                };
+                f(!1), a((function (e) {
+                  return v.GiftedChat.append(e, o);
+                }));
+              } catch (s) {
+                f(!1), alert("Error: " + s.message);
+                const i = {
+                  _id: Math.random().toString(36).substring(7),
+                  text: "Failed to send message. Please try again.",
+                  createdAt: new Date().toISOString(),
+                  user: { _id: 2, name: "ChatGPT", avatar: r(8756) },
+                };
+                a((function (e) {
+                  return v.GiftedChat.append(e, i);
+                }));
+              }
+            } else alert("Message cannot be empty");
+          }));
+          return function () {
+            return e.apply(this, arguments);
+          };
+        }();
         return (0, h.jsxs)(i.default, {
           style: [A.container, { backgroundColor: "#fff" }],
           children: [
@@ -795,25 +674,17 @@
                   style: { flexDirection: "row", alignItems: "center" },
                   children: (0, h.jsx)(l.default, {
                     onPress: function () {
-                      if (window.confirm("Are you sure you want to delete this chat?"))
-                        try {
-                          S()
-                            .removeItem("osmessages")
-                            .then(function () {
-                              a([]);
-                            })
-                            .catch(function (e) {
-                              console.error("Failed to delete chat", e);
-                            });
-                        } catch (e) {
+                      if (window.confirm("Are you sure you want to delete this chat?")) try {
+                        S().removeItem("osmessages").then((function () {
+                          a([]);
+                        })).catch((function (e) {
                           console.error("Failed to delete chat", e);
-                        }
+                        }));
+                      } catch (e) {
+                        console.error("Failed to delete chat", e);
+                      }
                     },
-                    children: (0, h.jsx)(O.default, {
-                      name: "trash-outline",
-                      size: 24,
-                      color: "#000",
-                    }),
+                    children: (0, h.jsx)(O.default, { name: "trash-outline", size: 24, color: "#000" }),
                   }),
                 }),
               ],
@@ -831,19 +702,14 @@
                   timeTextStyle: { right: { color: "rgba(255,255,255,0.5)" } },
                 }));
               },
-              renderSend: u
-                ? function (e) {
-                    return (0, h.jsx)(v.Send, _(_({}, e), {}, {
-                      children: (0, h.jsx)(i.default, {
-                        style: A.sendingContainer,
-                        children: (0, h.jsx)(x.default, {
-                          size: "small",
-                          color: "#007aff",
-                        }),
-                      }),
-                    }));
-                  }
-                : null,
+              renderSend: u ? function (e) {
+                return (0, h.jsx)(v.Send, _(_({}, e), {}, {
+                  children: (0, h.jsx)(i.default, {
+                    style: A.sendingContainer,
+                    children: (0, h.jsx)(x.default, { size: "small", color: "#007aff" }),
+                  }),
+                }));
+              } : null,
               renderLoading: function () {
                 return (0, h.jsx)(i.default, {
                   style: A.loadingContainer,
@@ -858,11 +724,7 @@
               },
               renderInputToolbar: function (e) {
                 return (0, h.jsx)(v.InputToolbar, _(_({}, e), {}, {
-                  containerStyle: {
-                    backgroundColor: "#fff",
-                    borderTopColor: "#000",
-                    borderTopWidth: 1,
-                  },
+                  containerStyle: { backgroundColor: "#fff", borderTopColor: "#000", borderTopWidth: 1 },
                 }));
               },
               renderComposer: function (e) {
@@ -904,26 +766,20 @@
         var r = Object.keys(e);
         if (Object.getOwnPropertySymbols) {
           var n = Object.getOwnPropertySymbols(e);
-          t &&
-            (n = n.filter(function (t) {
-              return Object.getOwnPropertyDescriptor(e, t).enumerable;
-            })),
-            r.push.apply(r, n);
+          t && (n = n.filter((function (t) {
+            return Object.getOwnPropertyDescriptor(e, t).enumerable;
+          }))), r.push.apply(r, n);
         }
         return r;
       }
       function N(e) {
         for (var t = 1; t < arguments.length; t++) {
           var r = null != arguments[t] ? arguments[t] : {};
-          t % 2
-            ? J(Object(r), !0).forEach(function (t) {
-                (0, m.default)(e, t, r[t]);
-              })
-            : Object.getOwnPropertyDescriptors
-            ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r))
-            : J(Object(r)).forEach(function (t) {
-                Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
-              });
+          t % 2 ? J(Object(r), !0).forEach((function (t) {
+            (0, m.default)(e, t, r[t]);
+          })) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(r)) : J(Object(r)).forEach((function (t) {
+            Object.defineProperty(e, t, Object.getOwnPropertyDescriptor(r, t));
+          }));
         }
         return e;
       }
@@ -936,40 +792,19 @@
           style: $.card,
           children: (0, h.jsxs)(R.default.Content, {
             children: [
-              (0, h.jsxs)(H.default, {
-                style: $.endpoint,
-                children: ["Endpoint: ", t],
-              }),
-              (0, h.jsxs)(B.default, {
-                style: $.method,
-                children: ["Method: ", r],
-              }),
-              (0, h.jsxs)(B.default, {
-                style: $.headers,
-                children: ["Headers: ", JSON.stringify(n, null, 2)],
-              }),
-              (0, h.jsxs)(B.default, {
-                style: $.body,
-                children: ["Body: ", JSON.stringify(o, null, 2)],
-              }),
+              (0, h.jsxs)(H.default, { style: $.endpoint, children: ["Endpoint: ", t] }),
+              (0, h.jsxs)(B.default, { style: $.method, children: ["Method: ", r] }),
+              (0, h.jsxs)(B.default, { style: $.headers, children: ["Headers: ", JSON.stringify(n, null, 2)] }),
+              (0, h.jsxs)(B.default, { style: $.body, children: ["Body: ", JSON.stringify(o, null, 2)] }),
               (0, h.jsx)(M.default, {
                 mode: "contained",
                 onPress: function () {
-                  var e = `Endpoint: ${t}\nMethod: ${r}\nHeaders: ${JSON.stringify(
-                    n,
-                    null,
-                    2
-                  )}\nBody: ${JSON.stringify(o, null, 2)}`;
-                  "undefined" !== typeof navigator && navigator.clipboard
-                    ? navigator.clipboard
-                        .writeText(e)
-                        .then(function () {
-                          alert("API data copied to clipboard!");
-                        })
-                        .catch(function (e) {
-                          alert("Could not copy text: ", e);
-                        })
-                    : (L.default.setString(e), alert("API data copied to clipboard!"));
+                  var e = `Endpoint: ${t}\nMethod: ${r}\nHeaders: ${JSON.stringify(n, null, 2)}\nBody: ${JSON.stringify(o, null, 2)}`;
+                  "undefined" !== typeof navigator && navigator.clipboard ? navigator.clipboard.writeText(e).then((function () {
+                    alert("API data copied to clipboard!");
+                  })).catch((function (e) {
+                    alert("Could not copy text: ", e);
+                  })) : (L.default.setString(e), alert("API data copied to clipboard!"));
                 },
                 style: { alignSelf: "flex-start", marginTop: 10 },
                 children: "Copy API",
@@ -982,30 +817,25 @@
         return (0, h.jsxs)(i.default, {
           style: $.container,
           children: [
-            (0, h.jsx)(s.default, {
-              style: $.title,
-              children: "ChatGPT 4 API",
-            }),
-            (0, h.jsx)(W, N({}, {
-              endpoint: "https://req.wiki-api.ir/apis-2/ChatGPT4",
-              method: "GET",
-              headers: {
-                "Content-Type": "application/json; charset=utf-8",
-              },
-              body: {
-                q: "Hello ChatGPT",
-              },
+            (0, h.jsx)(s.default, { style: $.title, children: "ChatGPT 3.5 API" }),
+            (0, h.jsx)(W, N({}, {}, {
+              endpoint: "http://api.api4dev.ir/gptpost/",
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: { text: "Hello ChatGPT" },
+            })),
+            (0, h.jsx)(s.default, { style: $.title, children: "ChatGPT Evil API" }),
+            (0, h.jsx)(W, N({}, {}, {
+              endpoint: "http://api.api4dev.ir/gptpost/",
+              method: "POST",
+              headers: { "Content-Type": "application/x-www-form-urlencoded" },
+              body: { text: "Hello DarkGPT" },
             })),
           ],
         });
       }
       var $ = u.default.create({
-        container: {
-          flex: 1,
-          justifyContent: "center",
-          padding: 16,
-          backgroundColor: "#f5f5f5",
-        },
+        container: { flex: 1, justifyContent: "center", padding: 16, backgroundColor: "#f5f5f5" },
         card: {
           margin: 16,
           backgroundColor: "#ffffff",
@@ -1028,31 +858,11 @@
           children: (0, h.jsxs)(K.Navigator, {
             initialRouteName: "Home",
             children: [
-              (0, h.jsx)(K.Screen, {
-                name: "Home",
-                component: y,
-                options: { title: "Home Page" },
-              }),
-              (0, h.jsx)(K.Screen, {
-                name: "Chat",
-                component: T,
-                options: { title: "ChatGPT" },
-              }),
-              (0, h.jsx)(K.Screen, {
-                name: "DarkGPT",
-                component: G,
-                options: { title: "DarkGPT - Evil ChatGPT" },
-              }),
-              (0, h.jsx)(K.Screen, {
-                name: "Sam Alie",
-                component: z,
-                options: { title: "Sam Alie" },
-              }),
-              (0, h.jsx)(K.Screen, {
-                name: "API",
-                component: U,
-                options: { title: "API Docs" },
-              }),
+              (0, h.jsx)(K.Screen, { name: "Home", component: y, options: { title: "Home Page" } }),
+              (0, h.jsx)(K.Screen, { name: "Chat", component: T, options: { title: "ChatGPT" } }),
+              (0, h.jsx)(K.Screen, { name: "DarkGPT", component: G, options: { title: "DarkGPT - Evil ChatGPT" } }),
+              (0, h.jsx)(K.Screen, { name: "Sam Alie", component: z, options: { title: "Sam Alie" } }),
+              (0, h.jsx)(K.Screen, { name: "API", component: U, options: { title: "API Docs" } }),
             ],
           }),
         });
@@ -1082,11 +892,7 @@
       if (!n) {
         var i = 1 / 0;
         for (d = 0; d < e.length; d++) {
-          for (var [n, o, a] = e[d], s = !0, l = 0; l < n.length; l++)
-            (!1 & a || i >= a) &&
-            Object.keys(r.O).every((e) => r.O[e](n[l]))
-              ? n.splice(l--, 1)
-              : (s = !1, a < i && (i = a));
+          for (var [n, o, a] = e[d], s = !0, l = 0; l < n.length; l++)(!1 & a || i >= a) && Object.keys(r.O).every((e => r.O[e](n[l]))) ? n.splice(l--, 1) : (s = !1, a < i && (i = a));
           if (s) {
             e.splice(d--, 1);
             var c = o();
@@ -1099,16 +905,11 @@
       for (var d = e.length; d > 0 && e[d - 1][2] > a; d--) e[d] = e[d - 1];
       e[d] = [n, o, a];
     };
-  })();
-  r.n = (e) => {
+  })(), r.n = e => {
     var t = e && e.__esModule ? () => e.default : () => e;
     return r.d(t, { a: t }), t;
-  };
-  (() => {
-    var e,
-      t = Object.getPrototypeOf
-        ? (e) => Object.getPrototypeOf(e)
-        : (e) => e.__proto__;
+  }, (() => {
+    var e, t = Object.getPrototypeOf ? e => Object.getPrototypeOf(e) : e => e.__proto__;
     r.t = function (n, o) {
       if (1 & o && (n = this(n)), 8 & o) return n;
       if ("object" === typeof n && n) {
@@ -1119,51 +920,33 @@
       r.r(a);
       var i = {};
       e = e || [null, t({}), t([]), t(t)];
-      for (var s = 2 & o && n; "object" == typeof s && !~e.indexOf(s); s = t(s))
-        Object.getOwnPropertyNames(s).forEach((e) => (i[e] = () => n[e]));
-      return (i.default = () => n), r.d(a, i), a;
+      for (var s = 2 & o && n; "object" == typeof s && !~e.indexOf(s); s = t(s)) Object.getOwnPropertyNames(s).forEach((e => i[e] = () => n[e]));
+      return i.default = () => n, r.d(a, i), a;
     };
-  })();
-  r.d = (e, t) => {
-    for (var n in t)
-      r.o(t, n) &&
-        !r.o(e, n) &&
-        Object.defineProperty(e, n, { enumerable: !0, get: t[n] });
-  };
-  r.g = (function () {
+  })(), r.d = (e, t) => {
+    for (var n in t) r.o(t, n) && !r.o(e, n) && Object.defineProperty(e, n, { enumerable: !0, get: t[n] });
+  }, r.g = function () {
     if ("object" === typeof globalThis) return globalThis;
     try {
       return this || new Function("return this")();
     } catch (e) {
       if ("object" === typeof window) return window;
     }
-  })();
-  r.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t);
-  r.r = (e) => {
-    "undefined" !== typeof Symbol &&
-      Symbol.toStringTag &&
-      Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-      Object.defineProperty(e, "__esModule", { value: !0 });
-  };
-  r.p = "/";
-  (() => {
+  }(), r.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t), r.r = e => {
+    "undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 });
+  }, r.p = "/", (() => {
     var e = { 179: 0 };
-    r.O.j = (t) => 0 === e[t];
+    r.O.j = t => 0 === e[t];
     var t = (t, n) => {
-      var o,
-        a,
-        [i, s, l] = n,
-        c = 0;
-      if (i.some((t) => 0 !== e[t])) {
+      var o, a, [i, s, l] = n, c = 0;
+      if (i.some((t => 0 !== e[t]))) {
         for (o in s) r.o(s, o) && (r.m[o] = s[o]);
         if (l) var d = l(r);
       }
-      for (t && t(n); c < i.length; c++)
-        (a = i[c]), r.o(e, a) && e[a] && e[a][0](), (e[a] = 0);
+      for (t && t(n); c < i.length; c++) a = i[c], r.o(e, a) && e[a] && e[a][0](), e[a] = 0;
       return r.O(d);
-    };
-    var n = (self.webpackChunkweb = self.webpackChunkweb || []);
-    n.forEach(t.bind(null, 0)), n.push(t.bind(null, n.push.bind(n)));
+    }, n = self.webpackChunkweb = self.webpackChunkweb || [];
+    n.forEach(t.bind(null, 0)), n.push = t.bind(null, n.push.bind(n));
   })();
   var n = r.O(void 0, [952], () => r(6271));
   n = r.O(n);
